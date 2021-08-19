@@ -1,5 +1,5 @@
 # Trybe
-Este repositório contém todas as atividade de aprendizagem desenvolvidas por *Jonatas* enquanto estudava na **Trybe**:rocket:.
+Este repositório contém todas as atividade de aprendizagem desenvolvidas por *Jonatas Passos* enquanto estudava na **Trybe**:rocket:.
 
 "*A trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho.*
 
@@ -8,7 +8,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ## Conteúdo :white_check_mark:
 ***
 
-- [] *Fundamentos do Desenvolvimento Web*
-- [] *Desenvolvimento Front-End*
-- [] *Desenvolvimento Back-End*
-- [] *Ciência da Computação*
+- [ ] *Fundamentos do Desenvolvimento Web*
+- [ ] *Desenvolvimento Front-End*
+- [ ] *Desenvolvimento Back-End*
+- [ ] *Ciência da Computação*
