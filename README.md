@@ -1,7 +1,14 @@
-# Conteúdo
-Neste repositório se encontra atividades que realizei durante todo o curso da Trybe. Basicamente, o conteúdo foi divido em 4 módulos:
+# Trybe
+Este repositório contém todas as atividade de aprendizagem desenvolvidas por *Jonatas* enquanto estudava na **Trybe**:rocket:.
 
-* Fundamentos
-* Front End
-* Back End
-* Ciência da Computação
+"*A trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho.*
+
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software,front-end,back-end, ciência da computação, engenharia de software, metologias ágeis e habilidades comportamentais.
+
+## Conteúdo :white_check_mark:
+***
+
+- [] *Fundamentos do Desenvolvimento Web*
+- [] *Desenvolvimento Front-End*
+- [] *Desenvolvimento Back-End*
+- [] *Ciência da Computação*
