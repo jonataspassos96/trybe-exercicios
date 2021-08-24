@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+}
+
+h1 {
+    width: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+li {
+    background-color: rgb(0, 195, 255);
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#li-verde {
+    background-color: green;
+}
+
+#li-vermelho {
+    background-color: red;
+}
+
+#li-marrom {
+    background-color: brown;
+}
+
+.mudando-cor {
+    background-color: rgb(255, 208, 0);
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
