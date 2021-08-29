@@ -1,0 +1,61 @@
+ol {
+  background-color: yellow;
+}
+
+ol li.IMPAR {
+  text-transform: uppercase;
+}
+
+ol li.PAR {
+  color: green;
+}
+
+.title-red {
+  color: red;
+}
+
+.title-red em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: 900;
+}
+
+.programacao {
+  color: blue;
+}
+
+.java {
+  color: rgb(194, 137, 146);
+}
+
+.StackOverflow a:hover {
+  font-weight: 900;
+  color: orange;
+}
+
+.W3Schools a:hover {
+  font-weight: 900;
+  color: green;
+}
+
+.MDN a:hover {
+  font-weight: 900;
+  color: black;
+}
+
+.DevDocs a:hover {
+  font-weight: 900;
+  color: yellow;
+}
+
+.Trybe a:hover {
+  font-weight: 900;
+  color: green;
+}
