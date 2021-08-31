@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+  background-color: #f8f0ca;
+}
+
+/* Cabeçalho */
+header {
+  padding-top: 10px;
+  background-color: rgb(252, 252, 105);
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+header nav ul {
+  text-decoration: none;
+}
+
+header li {
+  display: inline-block;
+  margin: 20px 40px 0px;
+  background-color: rgba(214, 214, 3, 0.692);
+  padding: 10px 20px 2px 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+header li a {
+  text-decoration: none;
+  color: rgb(90, 77, 77);
+  font-weight: 900;
+}
+
+/* Página inicial */
+.pagina-inicial {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.pagina-inicial img {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+.pagina-inicial span {
+  display: inline-block;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(68, 63, 63);
+  font-size: 12px;
+}
+
+/* Conteúdo principal*/
+main {
+  width: 890px;
+  margin-top: 80px;
+  padding: 10px;
+  display: inline-block;
+}
+
+article {
+  width: 850px;
+  margin-left: 30px;
+}
+
+/* Primeiro seção de artigos */
+.secao-1 h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.secao-1 img {
+  width: 850px;
+  height: 450px;
+}
+
+.secao-1 h3 {
+  margin: 10px 0px 10px 0px;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.secao-1 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+/* Tabela */
+.tabela-titulo {
+  text-align: center;
+  color: #0645ad;
+  background: #FFABD5;
+}
+
+table {
+  margin: auto;
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+th {
+  background: #FFABD5;
+  padding: 5px 40px 5px 40px;
+  font-size: medium;
+  color: #0645ad;
+}
+
+td {
+  vertical-align: top;
+  text-align: justify;
+  color: #0645ad;
+  border-bottom: 1px solid #333;
+}
+
+/* Segunda seção de artigos */
+.secao-2 h2 {
+  margin-top: 100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.secao-2 img {
+  width: 850px;
+  height: 450px;
+}
+
+.secao-2 h3 {
+  margin: 10px 0px 10px 0px;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.secao-2 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+/* Terceira seção de artigos */
+.secao-3 h2 {
+  margin-top: 100px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.secao-3 li {
+  list-style: none;
+}
+
+.secao-3 a {
+  text-decoration: none;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.secao-3 a:hover {
+  background-color: yellow;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.secao-3 a:active {
+  font-weight: 900;
+  color: green;
+}
+
+/* Seção a parte*/
+aside {
+  width: 340px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 80px;
+  float: right;
+}
+
+aside h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+aside iframe {
+  width: 340px;
+  height: 300px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 120px;
+  background-color: grey;
+}
+
+footer p {
+  padding: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
