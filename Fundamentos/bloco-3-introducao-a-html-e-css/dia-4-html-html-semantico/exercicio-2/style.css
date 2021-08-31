@@ -57,3 +57,67 @@ header li a {
   color: gray;
   font-size: 12px;
 }
+
+/* Conteúdo principal*/
+main {
+  width: 950px;
+  border: 1px solid violet;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+article {
+  border: 1px solid red;
+  width: 850px;
+  margin-left: 40px;
+}
+
+.secao-1 h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.secao-1 img {
+  width: 850px;
+  height: 450px;
+}
+
+.secao-1 h3 {
+  margin: 10px 0px 10px 0px;
+  font-style: italic;
+  font-size: 1.3em;
+}
+
+.secao-1 p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+/* Tabela */
+.tabela-titulo {
+  text-align: center;
+  color: #0645ad;
+  background: #FFABD5;
+}
+
+table {
+  margin: auto;
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+th {
+  background: #FFABD5;
+  padding: 5px 40px 5px 40px;
+  font-size: medium;
+  color: #0645ad;
+}
+
+td {
+  vertical-align: top;
+  text-align: justify;
+  color: #0645ad;
+  border-bottom: 1px solid #333;
+}
