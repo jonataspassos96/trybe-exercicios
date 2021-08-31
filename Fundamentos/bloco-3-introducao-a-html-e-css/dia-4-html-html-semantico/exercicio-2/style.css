@@ -54,7 +54,7 @@ header li a {
   display: inline-block;
   margin-top: 5px;
   font-family: 'Courier New', Courier, monospace;
-  color: gray;
+  color: rgb(68, 63, 63);
   font-size: 12px;
 }
 
