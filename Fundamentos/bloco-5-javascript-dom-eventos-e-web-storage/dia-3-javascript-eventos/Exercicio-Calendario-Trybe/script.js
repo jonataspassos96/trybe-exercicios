@@ -112,3 +112,23 @@ function customTask(tarefa) {
 }
 
 customTask('Estudar');
+
+/* Exercício 8 */
+function colorCaption(cor) {
+  const divFilho = document.createElement('div');
+  divFilho.className = 'task';
+  divFilho.style.backgroundColor = cor;
+  divTasks.appendChild(divFilho);
+  divFilho.addEventListener('click', addClassSelected);
+}
+
+colorCaption('blue');
+
+/* Exercício 9 */
+function addClassSelected(event) {
+  if (event.target.classList.contains('selected')) {
+    event.target.classList.remove('selected');
+  } else {
+    event.target.classList.add('selected');
+  }
+}
