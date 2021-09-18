@@ -15,7 +15,7 @@ function createDaysOfTheWeek() {
   
   // Escreva seu código abaixo.
 
-/* Colocando os dias no calendário */
+/* Exercício 1 */
 const mes = document.querySelector('#days');
 
 function inserindoDias(arrayDias) {
@@ -38,3 +38,31 @@ function inserindoDias(arrayDias) {
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
 inserindoDias(dezDaysList);
+
+/* Exercício 2 */
+const divPaiButton = document.querySelector('.buttons-container');
+const button = document.createElement('button');
+
+function addButton() {
+  button.innerText = 'Feriados';
+  divPaiButton.appendChild(button);
+}
+
+addButton();
+
+/* Exercício 3 */
+function addHolidaysColor() {
+  const holiday = document.querySelectorAll('.holiday');
+
+  for (let index = 0; index < holiday.length; index += 1) {
+    if (holiday[index].style.backgroundColor === 'orange') {
+        holiday[index].style.backgroundColor = 'rgb(238,238,238)';
+    } else {
+        holiday[index].style.backgroundColor = 'orange';
+    }
+  }
+}
+
+button.addEventListener('click', addHolidaysColor);
+
+/* Exercício 4 */
