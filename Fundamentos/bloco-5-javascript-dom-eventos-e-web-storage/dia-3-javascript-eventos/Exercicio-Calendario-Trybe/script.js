@@ -101,3 +101,14 @@ function addZoom(event) {
 function resetZoom(event) {
   event.target.style.fontSize = '20px';
 }
+
+/* Exercicio 7 */
+const span = document.createElement('span');
+const divTasks = document.querySelector('.my-tasks');
+
+function customTask(tarefa) {
+  span.innerText = tarefa;
+  divTasks.appendChild(span);
+}
+
+customTask('Estudar');
