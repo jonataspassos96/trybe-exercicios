@@ -66,12 +66,27 @@ function addHolidaysColor() {
 button.addEventListener('click', addHolidaysColor);
 
 /* Exercício 4 */
-const buttonSexta = document.createElement('button');
-
-function addButtonSexta() {
-  buttonSexta.innerText = 'Sexta-feira';
-  buttonSexta.id = 'btn-friday';
-  divPaiButton.appendChild(buttonSexta);
+let buttonSexta = document.createElement('button');
+function buttonFriday(sexta) {
+buttonSexta.id = 'btn-friday';
+buttonSexta.innerText = sexta;
+divPaiButton.appendChild(buttonSexta);
 }
 
-addButtonSexta();
+/* Exercício 5 */
+function changeTextFriday() {
+  buttonSexta.addEventListener('click', () => {
+  let arraySexta = [4, 11, 18, 25];
+
+  let sexta = document.querySelectorAll('.friday');
+  for(let index = 0; index < sexta.length; index += 1){
+    if(sexta[index].innerText !== 'Sextou!'){
+    sexta[index].innerText = 'Sextou!'; 
+  }else{
+    sexta[index].innerText = arraySexta[index];
+  }
+  }
+  });
+}
+buttonFriday('Sexta-fera!');
+changeTextFriday();
