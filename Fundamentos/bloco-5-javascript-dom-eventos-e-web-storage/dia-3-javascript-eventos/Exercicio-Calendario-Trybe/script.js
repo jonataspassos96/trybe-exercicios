@@ -21,6 +21,8 @@ const mes = document.querySelector('#days');
 function inserindoDias(arrayDias) {
   for (let index = 0; index < arrayDias.length; index += 1) {
       const dia = document.createElement('li');
+      dia.addEventListener('mouseover',addZoom);
+      dia.addEventListener('mouseout',resetZoom);
       dia.innerText = arrayDias[index];
       dia.classList.add('day');
       mes.appendChild(dia);
@@ -90,3 +92,12 @@ function changeTextFriday() {
 }
 buttonFriday('Sexta-fera!');
 changeTextFriday();
+
+/* Exercício 6 */
+function addZoom(event) {
+  event.target.style.fontSize = '25px';
+}
+
+function resetZoom(event) {
+  event.target.style.fontSize = '20px';
+}
