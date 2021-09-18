@@ -23,6 +23,7 @@ function inserindoDias(arrayDias) {
       const dia = document.createElement('li');
       dia.addEventListener('mouseover',addZoom);
       dia.addEventListener('mouseout',resetZoom);
+      dia.addEventListener('click', addColorDay);
       dia.innerText = arrayDias[index];
       dia.classList.add('day');
       mes.appendChild(dia);
@@ -132,3 +133,33 @@ function addClassSelected(event) {
     event.target.classList.add('selected');
   }
 }
+
+/* Exercício 10 */
+function addColorDay(event) {
+  const colorindoDia = event.target;
+  const selected = document.querySelector('.selected');
+
+  if (selected.style.backgroundColor == 'blue') {
+    if (colorindoDia.style.color === 'blue') {
+      colorindoDia.style.color = 'rgb(119, 119, 119)';
+    } else {
+      colorindoDia.style.color = 'blue';
+    }
+  }
+}
+
+/* Exercício Bônus */
+let getInputField = document.querySelector('#task-input');
+let addInputButton = document.querySelector('#btn-add');
+let getTaskList = document.querySelector('.task-list');
+
+addInputButton.addEventListener('click', () => {
+  if (getInputField.value.length > 0) {
+    let newLi = document.createElement('li');
+    newLi.innerText = getInputField.value;
+    getTaskList.appendChild(newLi);
+    getInputField.value = '';
+  } else {
+    alert('Error: Digite ao menos 1 caractere.');
+  }
+});
