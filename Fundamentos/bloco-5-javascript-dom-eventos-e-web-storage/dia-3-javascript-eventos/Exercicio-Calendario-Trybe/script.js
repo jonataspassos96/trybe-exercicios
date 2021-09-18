@@ -14,3 +14,27 @@ function createDaysOfTheWeek() {
   createDaysOfTheWeek();
   
   // Escreva seu código abaixo.
+
+/* Colocando os dias no calendário */
+const mes = document.querySelector('#days');
+
+function inserindoDias(arrayDias) {
+  for (let index = 0; index < arrayDias.length; index += 1) {
+      const dia = document.createElement('li');
+      dia.innerText = arrayDias[index];
+      dia.classList.add('day');
+      mes.appendChild(dia);
+
+      if (arrayDias[index] == 24 || arrayDias[index] == 25 || arrayDias[index] == 31) {
+        dia.classList.add('holiday');
+      }
+
+      if (arrayDias[index] == 4 || arrayDias[index] == 11 || arrayDias[index] == 18 || arrayDias[index] == 25) {
+          dia.classList.add('friday');
+      }
+  }
+}
+
+const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
+
+inserindoDias(dezDaysList);
