@@ -66,6 +66,12 @@ function addHolidaysColor() {
 button.addEventListener('click', addHolidaysColor);
 
 /* Exercício 4 */
-function buttonSexta() {
-  
+const buttonSexta = document.createElement('button');
+
+function addButtonSexta() {
+  buttonSexta.innerText = 'Sexta-feira';
+  buttonSexta.id = 'btn-friday';
+  divPaiButton.appendChild(buttonSexta);
 }
+
+addButtonSexta();
