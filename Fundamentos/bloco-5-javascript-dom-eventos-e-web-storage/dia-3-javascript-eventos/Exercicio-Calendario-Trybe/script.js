@@ -66,3 +66,6 @@ function addHolidaysColor() {
 button.addEventListener('click', addHolidaysColor);
 
 /* Exercício 4 */
+function buttonSexta() {
+  
+}
